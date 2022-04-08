@@ -10,7 +10,7 @@ html{
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/pos-tablet.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/pos-tablet.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -293,7 +293,7 @@ form {
 .formmm {
     padding: 50px;
     background-color: #ffffff;
-    background-image: url(/img/pos-phone.jpg);
+    background-image: url(./img/pos-phone.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
