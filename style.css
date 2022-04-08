@@ -83,8 +83,6 @@ nav:hover {
     transition: ease-in 0.3s;
 }
 
-
-
 .txt .btn:hover {
     font-weight: 600;
     cursor: pointer;
@@ -135,7 +133,6 @@ nav ul li a:hover {
   height: 100vh;
 }
 
-
 form {
     background-color: #0fbde40e;
     width: fit-content;
@@ -163,7 +160,6 @@ form {
 
 .form:hover {
   border: 2px solid #00ff37;
-
 }
 
 .title {
