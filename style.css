@@ -9,7 +9,7 @@ html{
     background-color: #121212;
 }
 
-header{
+header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/pos-tablet.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ header{
     height: 100vh;
 }
 
-nav{
+nav {
     background-color: #121212d3;
     text-align: center;
     font-size: 17px;
@@ -30,27 +30,24 @@ nav{
     transition: ease-in 0.2s;
 }
 
-nav:hover{
+nav:hover {
   box-shadow: 0px 0px 30px 4px #00ff37;
-
 }
 
-.txt{
-
+.txt {
     padding-top: 100px;
     padding-left: 20px;
     position: relative;
 }
 
-.txt h1{
+.txt h1 {
     font-size: 52px;
     color: wheat;
     text-shadow: 1px 1px #000000;
     margin-top: 120px;
-
 }
 
-.txt p{
+.txt p {
     font-size: 18px;
     text-shadow: 1px 1px #000000;
     color: wheat;
@@ -58,8 +55,8 @@ nav:hover{
     width: 400px;
 }
 
-.txt .btn1{
-  background-color: #00d0ff;
+.txt .btn1 {
+    background-color: #00d0ff;
     margin: 90px 20px;
     padding: 20px;
     margin-top: 20px;
@@ -69,10 +66,10 @@ nav:hover{
     text-align: center;
     font-weight: 600;
     box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
-    transition: ease-in 0.5s;
+    transition: ease-in 0.3s;
 }
 
-.txt .btn{
+.txt .btn {
   background-color: #121212;
     margin: 20px;
     padding: 20px;
@@ -83,13 +80,12 @@ nav:hover{
     text-align: center;
     font-weight: 600;   
     color: #00d0ff; 
-    transition: ease-in 0.5s;
-
+    transition: ease-in 0.3s;
 }
 
 
 
-.txt .btn:hover{
+.txt .btn:hover {
     font-weight: 600;
     cursor: pointer;
     color: #00ff37;
@@ -97,64 +93,61 @@ nav:hover{
     background-color: #121212;
 }
 
-.txt .btn1:hover{
+.txt .btn1:hover {
   background-color: #00ff37;
   font-weight: 600;
   cursor: pointer;
   box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
 }
 
-ul{
+ul {
     padding-top: 14px;
 }
 
-li{
+li {
     margin: 0 22px;
     float: right;
     color: #0fbce4;
     margin-top: 10px;
 }
 
-nav ul li a{
+nav ul li a {
   color: #0fbce4;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.1s;
 }
 
-nav li{
+nav li {
     display: inline;
     padding: 0 10px;
     cursor: pointer;
 }
 
-nav ul li a:hover{
-
+nav ul li a:hover {
     color: #00ff37;
     border-bottom: 2px solid #00ff37;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.midc{
+.midc {
   height: 100vh;
 }
 
 
-form{
+form {
     background-color: #0fbde40e;
     width: fit-content;
     margin: 0 auto;
     padding: 40px;
     border-radius: 20px;
     position: relative;
-    top: 20%;
-    
+    top: 20%;    
 }
 
-.end{
+.end {
     box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.75);
-
 }
 
 .form {
@@ -168,7 +161,7 @@ form{
   transition: ease-in 0.2s;
 }
 
-.form:hover{
+.form:hover {
   border: 2px solid #00ff37;
 
 }
@@ -208,7 +201,7 @@ form{
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
-  color: #eee;
+  color: wheat;
   font-size: 18px;
   height: 100%;
   outline: 0;
@@ -259,7 +252,7 @@ form{
 }
 
 .input:focus ~ .placeholder {
-  color: #dc2f55;
+  color: #808097;
 }
 
 .submit {
@@ -279,26 +272,25 @@ form{
   font-weight: 600;
 }
 
-.submit:hover{
+.submit:hover {
     background-color: #00ff37;
     color: #15172b;
 }
 
 .submit:active {
-  background-color: #06b;
+  background-color: #121212;
+  color: #00ff37;
+  box-shadow: inset 0px 0px 8px #00ff37;
 }
 
-
-
-.end{
+.end {
     height: 100vh;
     align-items: center;
-  /* background-color: rgb(255, 255, 255); */
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
   }
 
-.formmm{
+.formmm {
     padding: 50px;
     background-color: #ffffff;
     background-image: url(/img/pos-phone.jpg);
@@ -307,20 +299,19 @@ form{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
 }
 
-#logo{
+#logo {
     position: absolute;
     top: 14px;
     left: 10px;
 }
 
-.xyz{
+.xyz {
     padding: 30px;
 }
 
-.div11 , .div12{
+.div11 , .div12 {
     background-color: #121212;
     color: wheat;
     height: 100%;
@@ -328,24 +319,22 @@ form{
     position: relative;
 }
 
-.div12 p{
+.div12 p {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.cpyr{
+.cpyr , .xyz{
     text-align: center;
     align-self: center;
     align-items: baseline;
 }
 
-.logoo{
+.logoo {
     width: 100%;
 }
-
-
 
 .parent {
     display: grid;
@@ -353,10 +342,7 @@ form{
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    /* background-color: white; */
-
     }
-
 
     .div1 { grid-area: 1 / 1 / 2 / 2; }
     .div2 { grid-area: 1 / 2 / 2 / 3; }
@@ -371,66 +357,66 @@ form{
     .div11 { grid-area: 3 / 1 / 4 / 3; }
     .div12 { grid-area: 3 / 3 / 4 / 6; }
 
-
-
-    ::-webkit-scrollbar{
+    ::-webkit-scrollbar {
         width: 10px;
     }
 
-    ::-webkit-scrollbar-track{
+    ::-webkit-scrollbar-track {
         background: #121212;
     }
 
-    ::-webkit-scrollbar-thumb{
+    ::-webkit-scrollbar-thumb {
         background: #00d0ff;
     }
 
-    
-    ::-webkit-scrollbar-thumb:hover{
+    ::-webkit-scrollbar-thumb:hover {
       background: #00ff37;
   }
 
-
-    .mid{
+    .mid {
         height: 400px;
         background-color: #121212;
     }
 
-
-    .pp{
+    .pp {
         margin: 10px 0;
     }
-    .infoo{
 
+    .infoo {
         margin-top: 20%;
         font-size: 20px;
-
     }
 
-    .midc{
+    .midc {
       justify-content: center;
       align-items: center;
       align-self: center;
     }
 
-.message{
-padding: 20px 5px;
+    .message {
+      padding: 20px 5px;
+    }
+
+.message h1{
+  color: wheat;
+  vertical-align: middle;
+  padding-top: 50vh;
 }
 
-.green{
+.green {
   color: #00ff37;
 }
 
-.blue{
+.blue {
   color: #00d0ff;
   transition: ease-in 0.3s;
   cursor:pointer;
+  font-size: 70px;
 }
 
-.blue:hover{
+.blue:hover {
   color: #00ff37;
 }
-
 
 .message {
   display: grid;
@@ -439,10 +425,19 @@ padding: 20px 5px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   text-align: center;
+  height: 100vh;
   }
   
   .div1y { grid-area: 1 / 1 / 2 / 2; }
   .div2y { grid-area: 1 / 2 / 2 / 3; }
   .div3y { grid-area: 1 / 3 / 2 / 4; }
 
+  .ca{
+    transition: ease-in-out 0.3s;
+    padding: 10px;
+    cursor: pointer;
+  }
 
+  .ca:hover{
+    padding: 5px;
+    }
